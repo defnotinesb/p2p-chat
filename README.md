@@ -9,17 +9,23 @@ A simple TCP based chat app that essentially works between LAN connected compute
 - Client-Server architecture
 - LAN communication
 - Multiple clients using threads
+- A windows app so you wont have to install python if you dont have it
 
 ## Technologies
 - python (socket library)
 - TCP/IP protocols
 - Command line
+- pyinstaller
 
 ## How to use?
-1. Download the source code
-2. run the client.py and server.py in two diffrent terminals (or two diffrent computers)
+1. Download the app on your computer in this case the client (the app download is on my releases)
+2. run the server.py on your other computer (in most cases my computer will be the server)
 3. send infinit messages !ONLY! on a local area network (two computers connected to the same wifi)
-4. to DISCONNECT the client computer (the one running client.py) should just type !DISCONNECT to disconnect from the server and stop talking
+4. to DISCONNECT the client computer (the one running client.py) should just type !DISCONNECT to disconnect from the server and stop talking 
+
+## Warnings!
+- after typing disconnect the server has to type one more message for the app to close
+- for now only my pc can act as the server
 
 ## Future updates
 - will add a feature of connecting to the internet inseat of local area network
