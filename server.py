@@ -15,19 +15,15 @@ def start():
     print(f"[LISTENING] server is listening on {SERVER}")
     while True:
         conn, addr = server.accept()
-        thread = threading.Thread(target=receive, args=(conn, addr))
+        thread = threading.Thread(target=handle_client, args=(conn, addr))
         thread.start() #threading just in case of multiple clients
 
-def send():
-    while True:
-        msg = input("You: ")
-        send_message(msg)
 
-def send_message(msg):
+def send(msg):
     message = msg.encode(FORMAT)
     server.send(message)
 
-def receive(conn,addr):
+def handle_client(conn,addr):
     connected = True
     while connected:
         msg = conn.recv(2048).decode(FORMAT)
@@ -37,6 +33,10 @@ def receive(conn,addr):
             break
 
         print(f"[{addr}]:{msg}")
+        conn.send(input("You:").encode(FORMAT))
+
+    conn.close()
+        
 
 
 

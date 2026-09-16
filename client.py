@@ -10,11 +10,12 @@ client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client.connect(ADDR)
 
 
+
 def send_message(msg):
     message = msg.encode(FORMAT)
     client.send(message)
+    print(client.recv(2048).decode(FORMAT))
+
+send_message(input("You:"))
 
 
-
-
-send_message(input(f"send a message to {SERVER}"))
