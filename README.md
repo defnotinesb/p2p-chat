@@ -1,7 +1,8 @@
 # Peer-To-Peer chat app
 
 A simple TCP based chat app that essentially works between LAN connected computers using python sockets 
-C:\Users\dell\OneDrive\Pictures\Screenshots\Screenshot 2026-09-16 200849.png
+<img width="260" height="117" alt="Screenshot 2026-09-16 200849" src="https://github.com/user-attachments/assets/c1355bac-1d82-4b2e-9e63-9644f389a290" />
+
 
 ## Features
 - TCP communication
@@ -26,4 +27,7 @@ C:\Users\dell\OneDrive\Pictures\Screenshots\Screenshot 2026-09-16 200849.png
 ## Refrences of learning 
 - https://youtu.be/3QiPPX-KeSc?si=tb3U3bwDFiOXwuuC
 - https://stackoverflow.com/questions/42415207/send-receive-data-with-python-socket
+<<<<<<< HEAD
 - https://www.datacamp.com/tutorial/two-simple-methods-to-convert-a-python-file-to-an-exe-file
+=======
+>>>>>>> de9376096437a2c6681ceb5816628045090a6383
