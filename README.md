@@ -1,7 +1,8 @@
 # Peer-To-Peer chat app
 
 A simple TCP based chat app that essentially works between LAN connected computers using python sockets 
-C:\Users\dell\OneDrive\Pictures\Screenshots\Screenshot 2026-09-16 200849.png
+<img width="260" height="117" alt="Screenshot 2026-09-16 200849" src="https://github.com/user-attachments/assets/c1355bac-1d82-4b2e-9e63-9644f389a290" />
+
 
 ## Features
 - TCP communication
