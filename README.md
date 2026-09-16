@@ -27,7 +27,4 @@ A simple TCP based chat app that essentially works between LAN connected compute
 ## Refrences of learning 
 - https://youtu.be/3QiPPX-KeSc?si=tb3U3bwDFiOXwuuC
 - https://stackoverflow.com/questions/42415207/send-receive-data-with-python-socket
-<<<<<<< HEAD
 - https://www.datacamp.com/tutorial/two-simple-methods-to-convert-a-python-file-to-an-exe-file
-=======
->>>>>>> de9376096437a2c6681ceb5816628045090a6383
